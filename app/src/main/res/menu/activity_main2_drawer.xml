@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:showIn="navigation_show">
+      <!--tools:context=".Main3Activity">-->
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/enroll"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="물건등록"/>
+        <item
+                android:id="@+id/show"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="등록된 물건 보기"/>
+        <item
+                android:id="@+id/del"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="물건 삭제"/>
+        <item
+                android:id="@+id/mydata"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="내 정보"/>
+        <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="로그아웃"/>
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                    <!--android:id="@+id/nav_share"-->
+                    <!--android:icon="@drawable/ic_menu_share"-->
+                    <!--android:title="@string/menu_share"/>-->
+            <!--<item-->
+                    <!--android:id="@+id/nav_send"-->
+                    <!--android:icon="@drawable/ic_menu_send"-->
+                    <!--android:title="@string/menu_send"/>-->
+        <!--</menu>-->
+    <!--</item>-->
+</menu>

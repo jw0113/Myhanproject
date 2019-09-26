@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/popupup2"
+              android:layout_width="300dp"
+              android:background="#eeeeee"
+              android:layout_height="400dp"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:background="#ff7a00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:src="@drawable/pin"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_width="52dp"
+                android:layout_height="42dp"/>
+
+        <TextView
+                android:id="@+id/area_name"
+                android:layout_width="163dp"
+                android:layout_height="53dp"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center_vertical"
+                android:background="#ff7a00"/>
+    </LinearLayout>
+
+
+    <TextView
+            android:id="@+id/dustnum"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"/>
+
+    <ImageView
+            android:id="@+id/dustimg"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"/>
+
+</LinearLayout>

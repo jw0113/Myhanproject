@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "790928543904",
+    "firebase_url": "https://fcm-push-hanium.firebaseio.com",
+    "project_id": "fcm-push-hanium",
+    "storage_bucket": "fcm-push-hanium.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790928543904:android:c9bd6e06ebf6494ca2b9c5",
+        "android_client_info": {
+          "package_name": "com.example.myhanproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790928543904-f7ofttvmdd7kudsdf2eiaol9u0ou7jpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4dejIUlH7waWVTSUoXY4Nrg5Ho2p6fPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790928543904-f7ofttvmdd7kudsdf2eiaol9u0ou7jpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
