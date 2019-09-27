@@ -21,7 +21,7 @@ public class Main2Activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     String b;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
